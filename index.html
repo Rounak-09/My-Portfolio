@@ -32,6 +32,7 @@
         #navbar>div>a:hover{
             color: rgb(64,112,244);
             cursor: pointer;
+            text-decoration: underline;
         }
         #container1 {
             padding-top: 180px;
@@ -68,11 +69,8 @@
         #color{
             color: rgb(64,112,244);
         }
-        #photo {
-            width: 390px;
-        }
         #photo>img {
-            width: 100%;
+            width: 390px;
             border-radius: 50%;
         }
         #icons {
@@ -218,17 +216,66 @@
             color: gray;
             padding: 10px;
         }
+        @media screen and (max-width:992px) {
+            #container1{
+                width: 90%;
+            }
+            #navbar{
+            gap: 24px;
+            padding: 10px;
+            }
+            #merge {
+            gap: 10px;
+            }
+            #photo>img {
+            width: 330px;
+            }
+            #intro {
+            font-size: 30px;
+            font-weight: 800;
+            }
+            #intro>button {
+            margin-top: 60px;
+            padding: 15px 45px;
+            
+            }
+            #container2{
+                width: 90%;
+            }
+            #container3{
+                width: 90%;
+            }
+            #table {
+            grid-template-columns: repeat(2,1fr);
+            gap: 30px;
+            }
+            #container4{
+                width: 90%;
+            }
+            #box {
+            grid-template-columns: repeat(1,1fr);
+            gap: 45px;
+            }
+            #container5{
+                width: 90%;
+            }
+        }
         @media screen and (max-width:600px) {
             #container1{
                 width: 90%;
             }
             #navbar{
-            gap: 15px;
+            gap: 10px;
             padding: 10px;
+            height: 20px;
+            font-size: medium;
             }
             #merge {
             gap: 10px;
-        }
+            }
+            #photo>img {
+            width: 240px;
+            }
             #intro {
             font-size: 24px;
             font-weight: 800;
@@ -237,7 +284,7 @@
             margin-top: 60px;
             padding: 10px 30px;
             
-        }
+            }
             #container2{
                 width: 90%;
             }
