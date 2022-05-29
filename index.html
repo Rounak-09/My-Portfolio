@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: "Poppins", sans-serif;
-            margin-top: 30px;
+            margin: 0px;
         }
         #navbar{
             position: fixed;
@@ -34,7 +34,7 @@
             cursor: pointer;
         }
         #container1 {
-            padding-top: 100px;
+            padding-top: 180px;
             width: 70%;
             margin: auto;
             display: flex;
@@ -52,7 +52,7 @@
             font-weight: bold;
             color: white;
             font-size: large;
-            border: 0px solid black;
+            border: 1px solid rgb(64,112,244);
             
         }
         #intro>button:hover{
@@ -220,34 +220,40 @@
         }
         @media screen and (max-width:600px) {
             #container1{
-                width: 100%;
+                width: 90%;
             }
             #navbar{
-            gap: 24px;
+            gap: 15px;
+            padding: 10px;
             }
             #intro {
             font-size: 24px;
             font-weight: 800;
             }
+            #intro>button {
+            margin-top: 60px;
+            padding: 10px 30px;
+            
+        }
             #container2{
-                width: 100%;
+                width: 90%;
             }
             #container3{
-                width: 100%;
+                width: 90%;
             }
             #table {
             grid-template-columns: repeat(1,1fr);
             gap: 30px;
             }
             #container4{
-                width: 100%;
+                width: 90%;
             }
             #box {
             grid-template-columns: repeat(1,1fr);
             gap: 45px;
             }
             #container5{
-                width: 100%;
+                width: 90%;
             }
         }
     </style>
