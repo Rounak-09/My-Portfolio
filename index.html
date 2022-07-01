@@ -334,7 +334,7 @@
             
         </div>
         <div id="photo">
-            <img src="Photos\My DP.png">
+            <img src="Photos\dp.png">
         </div>
     </div>
     <a name="about"></a>
@@ -379,7 +379,16 @@
         <h1 class="heading">Projects</h1>
         <div id="box">
             <div>
-                <img src="Photos\Screenshot (88).png">
+                <img src="Photos\er_diagram.png">
+                <h3>Covid-19 Vaccination Online Booking</h3>
+                <p>A backend project on Covid-19 Vaccination Online Booking. User can select the desired vaccination center, date and time slot available for covid-19 vaccination and book his appointment.</p>
+                <p>A collaborative project, built in 5 days by a team of 5 developers.</p>
+                <p>Java | Spring Boot | MySQL</p>
+                <button id="covid19code" class="button">CODE <i class="fa-brands fa-github"></i></button>
+                <!-- <button id="covid19live" class="button">LIVE <i class="fa-solid fa-arrow-up-right-from-square"></i></button> -->
+            </div>
+            <div>
+                <img src="Photos\dunzo.png">
                 <h3>DUNZO.COM CLONE</h3>
                 <p>Dunzo is an Indian company that delivers groceries and essentials, fruits and vegetables, meat, pet supplies, food, and medicines in major cities.</p>
                 <p>A collaborative project, built in 5 days by a team of 6 developers.</p>
@@ -388,13 +397,22 @@
                 <button id="dunzolive" class="button">LIVE <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
             </div>
             <div>
-                <img src="Photos\Screenshot (90).png">
+                <img src="Photos\bobbi.png">
                 <h3>BOBBIBROWNCOSMETICS.COM CLONE</h3>
                 <p>Bobbi Brown Cosmetics is a luxury makeup brand. Shop makeup and skincare products on Bobbi Brown Cosmetics online.</p>
                 <p>A collaborative project, built in 5 days by a team of 4 developers.</p>
                 <p>HTML | CSS | JavaScript</p>
                 <button id="bobbicode" class="button">CODE <i class="fa-brands fa-github"></i></button>
                 <button id="bobbilive" class="button">LIVE <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+            </div>
+            <div>
+                <img src="Photos\portfolio.png">
+                <h3>MY PORTFOLIO</h3>
+                <p>My portfolio showcases some of my abilities.</p>
+                <p>An individual project, built in 1 day by me.</p>
+                <p>HTML | CSS | JavaScript</p>
+                <button id="portfoliocode" class="button">CODE <i class="fa-brands fa-github"></i></button>
+                <button id="portfoliolive" class="button">LIVE <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
             </div>
         </div>
     </div>
@@ -453,6 +471,11 @@
         window.open(
               "https://github.com/Rounak-09", "_blank");
     }
+    let covid19code = document.getElementById("covid19code");
+    covid19code.onclick= function(){
+        window.open(
+              "https://github.com/Rounak-09/Covid-19_Vaccination", "_blank");
+    }
     let dunzolive = document.getElementById("dunzolive");
     dunzolive.onclick= function(){
         window.open(
@@ -472,6 +495,16 @@
     bobbicode.onclick= function(){
         window.open(
               "https://github.com/Rounak-09/Bobbi_Brown_Cosmetics", "_blank");
+    }
+    let portfoliocode = document.getElementById("portfoliocode");
+    portfoliocode.onclick= function(){
+        window.open(
+              "https://github.com/Rounak-09/My-Portfolio", "_blank");
+    }
+    let portfoliolive = document.getElementById("portfoliolive");
+    portfoliolive.onclick= function(){
+        window.open(
+              "https://rounak-09.github.io/My-Portfolio/", "_blank");
     }
     let linkedin1 = document.getElementById("linkedin1");
     linkedin1.onclick= function(){
